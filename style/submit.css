@@ -1,5 +1,6 @@
 .submit__container {
-  padding: 80px 0 0 0;
+  max-width: 1212px;
+  padding: 80px 20px 0;
 }
 
 .submit__title {
@@ -7,7 +8,6 @@
   font-weight: 700;
   line-height: 2.7rem;
   text-transform: uppercase;
-  color: white;
 }
 
 .submit__title span{
@@ -31,14 +31,16 @@
 .points {
   width: 82%;
   position: absolute;
-  top:34%;
-  left:50%;
-  transform:translate(-50%, -50%);
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .points__container {
-  width: 110px;
+  max-width: 110px;
   margin: 0 auto;
+  gap: 20px;
+
 }
 
 .points__container span{
@@ -58,7 +60,6 @@
 }
 
 .scheme-item__box {
-  background-image: url('../assets/svg/icon-circle.svg');
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -68,7 +69,6 @@
 }
 
 .scheme-item__text {
-  color: white;
   font-size: 1rem;
   font-weight: 400;
   text-align: center

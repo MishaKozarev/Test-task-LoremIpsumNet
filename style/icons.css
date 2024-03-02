@@ -1,3 +1,7 @@
+.icon-circle {
+  background-image: url('../assets/svg/icon-circle.svg');
+}
+
 .icon-search {
   background-image: url('../assets/svg/icon-search.svg');
   width: 33.43px;

@@ -20,11 +20,13 @@
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.35rem;
+  color: rgba(0, 0, 0, 1);
 }
 
 .dropdown__arrow {
   transform: rotate(90deg);
 }
+
 .dropdown__arrow::after {
   content: '\203A';
   color: black;
@@ -44,8 +46,8 @@
 
 .dropdown__main::-webkit-scrollbar {
   width: 7px;
-  background: rgba(61, 64, 80, 1);
   height: 174px;
+  background: rgba(61, 64, 80, 1);
   border-radius: 5px;
 }
 
@@ -53,7 +55,6 @@
   background-color: rgba(62, 156, 220, 1);
   border-radius: 7px;
   height: 53px;
-
 }
 
 .dropdown__item {

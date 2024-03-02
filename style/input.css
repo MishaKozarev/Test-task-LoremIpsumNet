@@ -17,7 +17,7 @@
 }
 
 .input-range__header {
-  color: rgba(255, 255, 255, 1);
+  width: 100%;
 }
 
 .input-range__item {
@@ -31,13 +31,20 @@
   justify-content: center;
   gap: 10px;
   text-transform: uppercase;
+  color: rgba(39, 39, 51, 1)
+}
+
+.btn-attach-file p {
+  color: rgba(39, 39, 51, 1);
+  font-size: 0.9375;
+  font-weight: 600;
+  line-height: 1.125;
 }
 
 .input-range__title {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.35rem;
-  color: rgba(255, 255, 255, 1);
 }
 
 .btn-submit {
@@ -47,6 +54,5 @@
   background-color: rgba(62, 156, 220, 1);
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 4px;
-  color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
 }

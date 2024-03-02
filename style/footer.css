@@ -2,12 +2,14 @@
   width: 100%;
   max-width: 1920px;
   height: 100px;
-  margin: 0 auto;
   background-color: rgba(61, 64, 80, 1);
 }
 
-.footer__container{
+.footer__container {
+  max-width: 1274px;
+  padding: 0 20px;
   height: 100%;
+  margin: 0 auto;
 }
 
 .footer__block {
@@ -15,7 +17,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: rgba(255, 255, 255, 1);
   font-size: 0.8125rem;
   line-height: 1rem;
 }
@@ -39,6 +40,15 @@
 
 .footer__item {
   gap: 5px;
+}
+
+.footer__item a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer__item a:hover{
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 
 .footer__icon {
