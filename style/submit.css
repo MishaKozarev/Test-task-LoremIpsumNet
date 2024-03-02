@@ -58,7 +58,7 @@
 }
 
 .scheme-item__box {
-  background-image: url('../assets/icon-circle.png');
+  background-image: url('../assets/svg/icon-circle.svg');
   background-size: cover;
   width: 100px;
   height: 100px;

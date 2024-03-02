@@ -1,35 +1,35 @@
 .icon-search {
-  background-image: url('../assets/icon-search.png');
+  background-image: url('../assets/svg/icon-search.svg');
   width: 33.43px;
   height: 33.43px;
 }
 
 .icon-percent {
-  background-image: url('../assets/icon-percent.png');
+  background-image: url('../assets/svg/icon-percent.svg');
   width: 30.86px;
   height: 30.86px;
 }
 
 .icon-document {
-  background-image: url('../assets/icon-document.png');
+  background-image: url('../assets/svg/icon-document.svg');
   width: 38.27px;
   height: 41.53px;
 }
 
 .icon-message {
-  background-image: url('../assets/icon-message.png');
+  background-image: url('../assets/svg/icon-message.svg');
   width: 36px;
   height: 28.29px;
 }
 
 .icon-money {
-  background-image: url('../assets/icon-money.png');
+  background-image: url('../assets/svg/icon-money.svg');
   width: 38.57px;
   height: 25.71px;
 }
 
 .icon-file {
-  background-image: url('../assets/icon-file.svg.svg');
+  background-image: url('../assets/svg/icon-file.svg');
   width: 17.14px;
   height: 20px;
 }
