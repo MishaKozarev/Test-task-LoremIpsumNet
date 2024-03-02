@@ -33,3 +33,26 @@
   width: 17.14px;
   height: 20px;
 }
+
+.icon-qiwi {
+  background-image: url('../assets/svg/icon-qiwi.svg');
+}
+
+.icon-yandex-money {
+  background-image: url('../assets/svg/icon-yandex-money.svg');
+}
+
+.icon-web-money {
+  background-image: url('../assets/svg/icon-web-money.svg');
+}
+
+.icon-letter {
+  background-image: url('../assets/svg/icon-letter.svg');
+}
+
+.icon-vk {
+  background-image: url('../assets/svg/icon-vk.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+}

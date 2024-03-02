@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  max-width: 1920px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgba(61, 64, 80, 1);
+}
+
+.footer__container{
+  height: 100%;
+}
+
+.footer__block {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.8125rem;
+  line-height: 1rem;
+}
+
+.footer__info,
+.footer__payments {
+  border-right: 1px solid rgba(255, 255, 255, 1);
+}
+
+.footer__payments {
+  width: 40%;
+}
+
+.footer__info {
+  width: 30%;
+}
+
+.footer__contacts {
+  width: 30%;
+}
+
+.footer__item {
+  gap: 5px;
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
+}
+
+
