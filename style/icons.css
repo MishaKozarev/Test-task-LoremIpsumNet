@@ -1,0 +1,35 @@
+.icon-search {
+  background-image: url('../assets/icon-search.png');
+  width: 33.43px;
+  height: 33.43px;
+}
+
+.icon-percent {
+  background-image: url('../assets/icon-percent.png');
+  width: 30.86px;
+  height: 30.86px;
+}
+
+.icon-document {
+  background-image: url('../assets/icon-document.png');
+  width: 38.27px;
+  height: 41.53px;
+}
+
+.icon-message {
+  background-image: url('../assets/icon-message.png');
+  width: 36px;
+  height: 28.29px;
+}
+
+.icon-money {
+  background-image: url('../assets/icon-money.png');
+  width: 38.57px;
+  height: 25.71px;
+}
+
+.icon-file {
+  background-image: url('../assets/icon-file.svg.svg');
+  width: 17.14px;
+  height: 20px;
+}

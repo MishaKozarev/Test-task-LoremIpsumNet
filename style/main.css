@@ -1,0 +1,46 @@
+@import "./header.css";
+@import "./order.css";
+@import "./submit.css";
+@import "./icons.css";
+@import "./dropdown.css";
+@import "./input.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  height: 1848px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  position: relative;
+  background-color: rgba(16, 16, 29, 0.9);
+}
+
+.container {
+  max-width: 1172px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

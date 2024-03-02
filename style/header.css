@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  max-width: 1920px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgba(16, 16, 29, 0.9);
+  position: fixed;
+}
+
+.header__logo p{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: white;
+}
+
+.header__logo span{
+  color: rgba(62, 156, 220, 1);
+}
+
+.header__list {
+  gap: 112px;
+}
+
+.header__item {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8125rem;
+  color: white;
+}
+
+.header__item_active {
+  color: rgba(62, 156, 220, 1);
+}

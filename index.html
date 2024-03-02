@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,11 +15,11 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__container container">
+      <div class="header__container container flex-row">
         <div class="header__logo">
           <p>LOREMIPSUM.<span>NET</span></p>
         </div>
-        <ul class="header__list">
+        <ul class="header__list flex-row">
           <li class="header__item header__item_active">БИЗННЕС</li>
           <li class="header__item">О НАС</li>
           <li class="header__item">ЦЕНЫ</li>
@@ -41,6 +41,121 @@
             <button class="button">Заказать</button>
             <button class="button">Подробнее</button>
           </div>
+        </div>
+      </section>
+      <section class="submit">
+        <div class="submit__container container flex-column">
+          <h2 class="submit__title">Оформление <span>Заказа</span></h2>
+          <p class="submit__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+          <div class="submit__scheme">
+            <div class="points flex-row">
+              <div class="points__container flex-row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="points__container flex-row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="points__container flex-row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="points__container flex-row">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scheme-item">
+              <div class="scheme-item__box">
+                <div class="icon-search"></div>
+              </div>
+              <p class="scheme-item__text">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="scheme-item">
+              <div class="scheme-item__box">
+                <div class="icon-percent"></div>
+              </div>
+              <p class="scheme-item__text">Сonsecteturadipiscing elit</p>
+            </div>
+
+            <div class="scheme-item">
+              <div class="scheme-item__box">
+                <div class="icon-document"></div>
+              </div>
+              <p class="scheme-item__text">Sed do eiusmod tempor</p>
+
+            </div>
+            <div class="scheme-item">
+              <div class="scheme-item__box">
+                <div class="icon-message"></div>
+              </div>
+              <p class="scheme-item__text">Esse cillum doloreeu fugiat</p>
+
+            </div>
+            <div class="scheme-item">
+              <div class="scheme-item__box">
+                <div class="icon-money"></div>
+              </div>
+              <p class="scheme-item__text">Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+          </div>
+          <div class="submit__input-container">
+            <div class="dropdown">
+              <div class="dropdown__header flex-row">
+                <p class="dropdown__title">Выберите тип системы</p>
+                <span class="dropdown__arrow"></span>
+              </div>
+              <div class="dropdown__main">
+                <p class="dropdown__item">Sed ut perspiciatis</p>
+                <p class="dropdown__item">Nemo enim ipsam</p>
+                <p class="dropdown__item">Et harum quidem</p>
+                <p class="dropdown__item">Temporibus autem</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+                <p class="dropdown__item">Itaque earum rerum</p>
+              </div>
+            </div>
+            <input class="input" type="text" placeholder="Ваш e-mail">
+            <input class="input" type="text" placeholder="Ваше имя">
+          </div>
+          <div class="submit__input-container">
+            <div class="input-range flex-column">
+              <div class="input-range__header flex-row">
+                <p class="input-range__title">Sed ut perspiciatis, unde omnis iste natus</p>
+                <span>20 %</span>
+              </div>
+              <input class="input-range__item" type="range">
+            </div>
+            <button class="btn-attach-file">
+              <div class="icon-file"></div>
+              <p>Прикрепить файл</p>
+            </button>
+
+          </div>
+          <button class="btn-submit">отправить</button>
         </div>
       </section>
     </main>
