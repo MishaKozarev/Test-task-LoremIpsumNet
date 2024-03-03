@@ -130,44 +130,46 @@
             </div>
           </div>
 
-          <div class="submit__input-grid">
-            <div class="dropdown">
-              <div class="dropdown__header flex-row">
-                <p class="dropdown__title">Выберите тип системы</p>
-                <span class="dropdown__arrow"></span>
-              </div>
-              <div class="dropdown__main">
-                <div class="dropdown__main-container">
-                  <p class="dropdown__item">Sed ut perspiciatis</p>
-                  <p class="dropdown__item">Nemo enim ipsam</p>
-                  <p class="dropdown__item">Et harum quidem</p>
-                  <p class="dropdown__item">Temporibus autem</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
-                  <p class="dropdown__item">Itaque earum rerum</p>
+
+          <form class="form flex-column" action="">
+            <div class="submit__input-grid">
+              <div class="dropdown">
+                <div class="dropdown__header flex-row">
+                  <p class="dropdown__title">Выберите тип системы</p>
+                  <span class="dropdown__arrow"></span>
+                </div>
+                <div class="dropdown__main">
+                  <div class="dropdown__main-container">
+                    <p class="dropdown__item">Sed ut perspiciatis</p>
+                    <p class="dropdown__item">Nemo enim ipsam</p>
+                    <p class="dropdown__item">Et harum quidem</p>
+                    <p class="dropdown__item">Temporibus autem</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                    <p class="dropdown__item">Itaque earum rerum</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <input class="input input-email" type="text" placeholder="Ваш e-mail">
-            <input class="input input-name" type="text" placeholder="Ваше имя">
-
-            <div class="input-range flex-column">
-              <div class="input-range__header flex-row">
-                <p class="input-range__title">Sed ut perspiciatis, unde omnis iste natus</p>
-                <span class="range-data"></span>
+              <input class="input input-email" type="text" name="email" placeholder="Ваш e-mail">
+              <input class="input input-name" type="text" name="name" placeholder="Ваше имя">
+              <div class="input-range flex-column">
+                <div class="input-range__header flex-row">
+                  <p class="input-range__title">Sed ut perspiciatis, unde omnis iste natus</p>
+                  <span class="range-data"></span>
+                </div>
+                <input class="input-range__item" type="range">
               </div>
-              <input class="input-range__item" type="range">
+              <button class="btn-attach-file" type="button">
+                <div class="icon-file"></div>
+                <p>Прикрепить файл</p>
+              </button>
             </div>
-            <button class="btn-attach-file">
-              <div class="icon-file"></div>
-              <p>Прикрепить файл</p>
-            </button>
-          </div>
-          <button class="btn-submit">отправить</button>
+            <button class="btn-submit" type="submit">отправить</button>
+          </form>
         </div>
       </section>
     </main>

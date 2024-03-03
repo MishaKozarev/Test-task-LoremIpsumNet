@@ -56,12 +56,19 @@ function openDropdown() {
   })
 }
 
+function getDropdownValue() {
+  dropdownMain.addEventListener('click', (event) => {
+    dropdownTitle.innerHTML = event.target.innerHTML
+  });
+}
+
 function start() {
   iconBurger.addEventListener('click', (openBurger));
   menu.addEventListener('click', closeBurger);
   getRange();
   openDropdown();
   clickLink();
+  getDropdownValue();
 }
 
 start();
