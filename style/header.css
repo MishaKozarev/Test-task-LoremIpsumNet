@@ -37,6 +37,13 @@
 .header__item {
   font-family: "Raleway", sans-serif;
   font-size: 0.8125rem;
+  border-bottom: 2px solid transparent;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.header__item:hover {
+  border-bottom: 2px solid rgba(62, 156, 220, 1);
 }
 
 .header__item_active {
@@ -45,6 +52,29 @@
 
 @media (max-width: 640px) {
   .header__list {
-    display: none;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 380px;
+    height: 100%;
+    background: #292929;
+    right: -100%;
+    top: 0;
+    transition: right 1s linear;
+    z-index: 2;
+}
+
+  .header__list.active {
+    transition: right 1s linear;
+    right: 0%;
   }
+
+  .header__item {
+    font-size: 2rem;
+    line-height: 160%;
+    text-align: center;
+}
 }
