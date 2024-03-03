@@ -15,7 +15,7 @@
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-  width: 780px;
+  max-width: 780px;
   line-height: 3.6rem;
   color: rgba(62, 156, 220, 1);
 }
@@ -60,4 +60,37 @@
   line-height: 0.975rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media (max-width: 580px) {
+  .order__title {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .order__title {
+    font-size: 2rem;
+  }
+
+  .order__subtitle {
+    font-size: 1rem;
+  }
+
+  .order__description {
+    font-size: 1rem;
+  }
+
+  .order__container {
+    padding: 126px 20px 0;
+  }
+
+  .order__buttons-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .order__btn {
+    width: 100%;
+  }
 }

@@ -21,7 +21,7 @@ li {
 .wrapper {
   width: 100%;
   max-width: 1920px;
-  height: 1848px;
+  /* height: 1848px; */
   margin: 0 auto;
   position: relative;
   background-color: rgba(16, 16, 29, 0.9);

@@ -5,17 +5,20 @@
   margin: 0 auto;
   background-color: rgba(16, 16, 29, 0.9);
   position: fixed;
+  z-index: 2;
 }
 
 .header__container {
   max-width: 1212px;
   padding: 0 20px;
+  width: 100%;
 }
 
 .header__logo p{
   font-family: "Raleway", sans-serif;
   font-size: 1.75rem;
   font-weight: 800;
+  width: 30%;
 }
 
 .header__logo span{
@@ -23,7 +26,12 @@
 }
 
 .header__list {
-  gap: 112px;
+  width: 70%;
+  max-width: 475px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__item {
@@ -33,4 +41,10 @@
 
 .header__item_active {
   color: rgba(62, 156, 220, 1);
+}
+
+@media (max-width: 640px) {
+  .header__list {
+    display: none;
+  }
 }

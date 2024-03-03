@@ -40,7 +40,6 @@
   max-width: 110px;
   margin: 0 auto;
   gap: 20px;
-
 }
 
 .points__container span{
@@ -74,11 +73,110 @@
   text-align: center
 }
 
-.submit__input-container {
+/* .submit__input-container {
   width: 100%;
   height: 48px;
   margin: 70px 0 0 0;
   display: flex;
   justify-content: space-between;
+} */
+
+.submit__input-grid {
+  width: 100%;
+  margin: 70px 0 0 0;
+  display: grid;
+  gap: 30px;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "a b c"
+    "d d e";
+}
+
+.dropdown {
+  grid-area: a;
+}
+
+.input-email {
+  grid-area: b;
+}
+
+.input-name {
+  grid-area: c;
+}
+
+.input-range {
+  grid-area: d;
+}
+
+.btn-attach-file {
+  grid-area: e;
+}
+
+
+
+@media (max-width: 1150px) {
+  .points__container {
+    gap: 15px;
+  }
+
+  .points__container span:nth-child(even) {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .submit__scheme {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .points__container span {
+    display: none;
+  }
+
+  .submit__input-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "b c"
+      "d d"
+      "a e";
+  }
+}
+
+@media (max-width: 720px) {
+  .submit__scheme {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .submit__scheme {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .submit__input-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+  }
 }
 
