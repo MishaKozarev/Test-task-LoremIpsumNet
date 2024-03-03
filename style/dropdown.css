@@ -1,6 +1,7 @@
 .dropdown {
   width: 100%;
   max-width: 370px;
+  position: relative;
 }
 
 .dropdown__header {
@@ -12,8 +13,9 @@
   cursor: pointer;
 }
 
-.dropdown__header .active{
-  background-color: rgba(61, 64, 80, 1);
+.dropdown__header.active{
+  background-color: rgba(61, 64, 80, 0.85);
+  border: none;
 }
 
 .dropdown__title {
@@ -23,8 +25,13 @@
   color: rgba(0, 0, 0, 1);
 }
 
+.dropdown__title.active {
+  color: rgba(255, 255, 255, 1);
+}
+
 .dropdown__arrow {
   transform: rotate(90deg);
+  color: azure;
 }
 
 .dropdown__arrow::after {
@@ -35,13 +42,26 @@
 }
 
 .dropdown__main {
+  width: 99.5%;
   border: 1px solid rgba(61, 64, 80, 1);
+  background-color: rgba(61, 64, 80, 1);
   border-radius: 3px;
-  padding: 10px;
   height: 228px;
   overflow-y: scroll;
   box-sizing: content-box;
   display: none;
+  position: absolute;
+  top: 46px;
+  right: 0;
+  z-index: 2;
+}
+
+.dropdown__main-container {
+  padding: 15px;
+}
+
+.dropdown__main.active {
+  display: block;
 }
 
 .dropdown__main::-webkit-scrollbar {

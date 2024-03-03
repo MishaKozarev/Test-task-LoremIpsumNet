@@ -40,6 +40,10 @@
   color: rgba(39, 39, 51, 1);
 }
 
+.btn-attach-file:hover {
+  background-color: gray;
+}
+
 .btn-attach-file p {
   color: rgba(39, 39, 51, 1);
   font-size: 0.9375;
@@ -62,4 +66,8 @@
   border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 4px;
   text-transform: uppercase;
+}
+
+.btn-submit:hover {
+  background-color: rgb(6, 73, 117);
 }

@@ -4,6 +4,10 @@ const menuList = document.querySelector('.header__list');
 const body = document.querySelector('body');
 const range = document.querySelector('.input-range__item');
 const rangeData = document.querySelector('.range-data');
+const dropdown = document.querySelector('.dropdown');
+const dropdownMain = document.querySelector('.dropdown__main');
+const dropdownHeader = document.querySelector('.dropdown__header');
+const dropdownTitle = document.querySelector('.dropdown__title');
 
 function openBurger () {
   addMenuList();
@@ -37,6 +41,15 @@ function start() {
   iconBurger.addEventListener('click', (openBurger));
   menu.addEventListener('click', closeBurger);
   getRange();
+  openDropdown();
+}
+
+function openDropdown() {
+  dropdown.addEventListener('click', () => {
+    dropdownMain.classList.toggle('active');
+    dropdownHeader.classList.toggle('active');
+    dropdownTitle.classList.toggle('active');
+  })
 }
 
 start();
