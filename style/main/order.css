@@ -1,6 +1,6 @@
 .order {
-  height: 850px;
-  background-image: url('../assets/png/bg.png');
+  height: 848px;
+  background-image: url('../../assets/png/bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,6 +18,8 @@
   max-width: 780px;
   line-height: 3.6rem;
   color: rgba(62, 156, 220, 1);
+  word-wrap: break-word;
+
 }
 
 .order__title span {
@@ -66,13 +68,29 @@
   background-color: rgb(6, 73, 117);
 }
 
+@media (max-width: 980px) {
+  .order__container {
+    padding: 166px 20px 0;
+  }
+
+}
+
 @media (max-width: 580px) {
   .order__title {
     font-size: 2.4rem;
   }
+
+  .order__content {
+    margin: 40px 0 0 0;
+  }
+
 }
 
 @media (max-width: 480px) {
+  .order {
+    height: 800px;
+  }
+
   .order__title {
     font-size: 2rem;
   }

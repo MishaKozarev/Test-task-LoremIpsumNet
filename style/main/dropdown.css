@@ -30,15 +30,14 @@
 }
 
 .dropdown__arrow {
-  transform: rotate(90deg);
-  color: azure;
+  background-image: url('../../assets/svg/icon-arrow-bottom.svg');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
 }
 
-.dropdown__arrow::after {
-  content: '\203A';
-  color: black;
-  font-size: 2rem;
-  transform: rotate(90deg);
+.dropdown__arrow.active {
+  background-image: url('../../assets/svg/icon-arrow-top.svg');
 }
 
 .dropdown__main {

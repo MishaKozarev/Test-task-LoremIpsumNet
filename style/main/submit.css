@@ -1,3 +1,11 @@
+.submit {
+  background-image: linear-gradient(rgba(16, 16, 29, 0.9), rgba(16, 16, 29, 0.9)), url('../../assets/png/bg-bottom.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 872px;
+}
+
 .submit__container {
   max-width: 1212px;
   padding: 80px 20px 0;
@@ -112,8 +120,6 @@
   grid-area: e;
 }
 
-
-
 @media (max-width: 1150px) {
   .points__container {
     gap: 15px;
@@ -125,6 +131,10 @@
 }
 
 @media (max-width: 980px) {
+  .submit {
+    height: 1120px;
+  }
+
   .submit__scheme {
     display: grid;
     gap: 20px;
@@ -148,6 +158,10 @@
 }
 
 @media (max-width: 720px) {
+  .submit {
+    height: 1300px;
+  }
+
   .submit__scheme {
     display: grid;
     gap: 20px;
@@ -158,6 +172,10 @@
 }
 
 @media (max-width: 480px) {
+  .submit {
+    height: 1740px;
+  }
+
   .submit__scheme {
     display: grid;
     gap: 20px;

@@ -1,11 +1,11 @@
-@import "./header.css";
-@import "./order.css";
-@import "./submit.css";
-@import "./icons.css";
-@import "./dropdown.css";
-@import "./input.css";
-@import "./footer.css";
-@import "./burger.css";
+@import "./global/icons.css";
+@import "./header/header.css";
+@import "./header/burger.css";
+@import "./main/order.css";
+@import "./main/submit.css";
+@import "./main/dropdown.css";
+@import "./main/input.css";
+@import "./footer/footer.css";
 
 * {
   box-sizing: border-box;
@@ -15,8 +15,16 @@
   color: rgba(255, 255, 255, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -25,16 +33,14 @@ button {
 }
 
 button:active {
-  transform: translateY(4px);
+  transform: translateY(8px);
 }
 
 .wrapper {
   width: 100%;
   max-width: 1920px;
-  /* height: 1848px; */
   margin: 0 auto;
   position: relative;
-  background-color: rgba(16, 16, 29, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
