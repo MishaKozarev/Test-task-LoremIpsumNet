@@ -15,8 +15,16 @@
   color: rgba(255, 255, 255, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {

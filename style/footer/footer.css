@@ -53,6 +53,11 @@
   gap: 5px;
 }
 
+.footer__item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .footer__item a{
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
@@ -75,7 +80,6 @@
       "a c"
       "b b";
   }
-
 
   .footer__payments {
     border-right: none;
