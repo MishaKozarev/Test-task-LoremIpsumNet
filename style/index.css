@@ -6,6 +6,8 @@
 @import "./main/dropdown.css";
 @import "./main/input.css";
 @import "./footer/footer.css";
+@import "./main/reviews.css";
+@import "./global/popup.css";
 
 * {
   box-sizing: border-box;
@@ -17,6 +19,15 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow: overlay;
+}
+
+body.active {
+  overflow: hidden;
 }
 
 li {
